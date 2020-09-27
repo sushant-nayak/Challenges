@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+footer ul li {
+  background-color: cyan;
+  color: yellow;
+  font-weight: 500;
+}
+
+footer ul li:before {
+  content: "  |  ";
+}
+
+header ul li,
+footer ul li {
+  display: inline;
+}
+
+header ul li:after,
+footer ul li:after {
+  content: "  ";
+}
+
+header ul {
+  text-align: justify;
+}

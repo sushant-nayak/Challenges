@@ -1,0 +1,11 @@
+[
+  { "id": "1", "question": "Who are you?", "punchline": "Comedian" },
+  { "id": "2", "question": "Can you make me laugh?", "punchline": "No!" },
+  {
+    "id": "3",
+    "question": "Do you know Joe Rogan?",
+    "punchline": "Oh the famous podcaster!"
+  },
+  { "id": "4", "question": "", "punchline": "Hey where is your question ?" },
+  { "id": "5", "question": "", "punchline": "Are you out of questions?" }
+]

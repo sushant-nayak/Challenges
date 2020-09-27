@@ -1,0 +1,6 @@
+[
+  { "id": "1", "name": "Samsung", "price": 200.45 },
+  { "id": "2", "name": "Sony", "price": 350.99 },
+  { "id": "3", "name": "LG", "price": 100.53 },
+  { "id": "4", "name": "Toshiba", "price": 290.55 }
+]

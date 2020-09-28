@@ -1,5 +1,5 @@
 import React from "react";
-import Practice from "./components/Practice/Practice26";
+import Practice from "./components/Practice/Practice27";
 
 function App() {
   return <Practice />;

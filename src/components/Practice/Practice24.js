@@ -18,6 +18,9 @@ class Practice extends Component {
   }
 
   render() {
+    let buttonText = this.state.isLoggedIn ? "LOG OUT" : "LOG IN";
+    let displayText = this.state.isLoggedIn ? "Logged in" : "Logged out";
+
     return (
       <div>
         {
@@ -27,8 +30,9 @@ class Practice extends Component {
 
         <div style={{ textAlign: "center" }}>
           <button onClick={this.handleEvent}>
-            <h1>{this.state.isLoggedIn ? "Log out" : "Log in"} </h1>
+            <h1>{buttonText}</h1>
           </button>
+          <h1>Currently {displayText}</h1>
         </div>
       </div>
     );

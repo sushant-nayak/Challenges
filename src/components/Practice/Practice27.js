@@ -15,8 +15,10 @@ export default class Practice27 extends Component {
   }
 
   handleChange(event) {
+    // React synthetic value
+    const { name, value } = event.target;
     this.setState({
-      [event.target.name]: event.target.value,
+      [name]: value,
     });
   }
 
@@ -25,12 +27,14 @@ export default class Practice27 extends Component {
       <form>
         <input
           type="text"
+          value={this.state.firstName}
           name="firstName" // It has to match perfectly with state key
           placeholder="First Name"
           onChange={this.handleChange}
         />
         <input
           type="text"
+          value={this.state.lastName}
           name="lastName" // It has to match perfectly with state key
           placeholder="Last Name"
           onChange={this.handleChange}

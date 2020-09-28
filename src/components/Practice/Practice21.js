@@ -1,9 +1,7 @@
 // This is a Class Component named Practice
 // If you need to use State the component has to be a Class based component
 import React, { Component } from "react"; // makes the JSX work
-import challenge from "../../images/Challenge14.png";
-import TodoItem from "../TodoItem/TodoItem-v2";
-import todoData from "../TodoItem/todoData.json";
+
 import "./practice.css";
 
 class Practice extends Component {
